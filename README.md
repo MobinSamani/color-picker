@@ -2,6 +2,8 @@
 
 ---
 
+[Demo](https://demo.MobinSamani.com/color-picker)
+
 ## Install
 
 ```shell
