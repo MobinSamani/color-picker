@@ -13,6 +13,15 @@
     "url": "https://github.com/MobinSamani/color-picker.git"
   },
   "type": "module",
+  "main": "./dist/color-picker.umd.js",
+  "module": "./dist/color-picker.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/color-picker.es.js",
+      "require": "./dist/color-picker.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
   "scripts": {
     "dev": "vite --host=0.0.0.0",
     "build": "vite build",

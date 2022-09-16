@@ -26,7 +26,7 @@
 
           <div class="flex items-center gap-x-4">
             <div class="text-gray-700 text-sm">Custom Color:</div>
-            <input :id="name" type="color" class="grow rounded overflow-hidden" v-model="model" @change="toggleShow" />
+            <input type="color" class="grow rounded overflow-hidden" v-model="model" @change="toggleShow" />
           </div>
         </div>
       </div>

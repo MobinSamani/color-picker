@@ -23,7 +23,7 @@
 
           <color-picker label="Favorite Color" v-model="color" />
 
-          <button disabled type="submit" class="bg-blue-900 text-white rounded p-2 opacity-25">Submit</button>
+          <button disabled class="bg-blue-900 text-white rounded p-2 opacity-25">Submit</button>
         </div>
       </div>
     </div>
