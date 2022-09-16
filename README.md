@@ -1,5 +1,6 @@
 ### A Vue Color Picker Component as Code Example by [MobinSamani.com](https://MobinSamani.com)
---- 
+
+---
 
 ## Install
 
